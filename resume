@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignesh's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://www.transparenttextures.com/patterns/diagmonds.png');
+            background-color: #1a1a1d;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #f4f4f9;
+            padding-bottom: 20px;
+            background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            border-radius: 8px 8px 0 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        header h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        header p {
+            font-size: 1em;
+            margin: 5px 0;
+        }
+
+        .section {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+
+        .skills h3, .contact h3, .profiles h3 {
+            font-size: 1.5em;
+            color: #6a11cb;
+            margin-bottom: 10px;
+        }
+
+        .skills ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .skills ul li {
+            background: none;
+            color: #333;
+            padding: 10px 0;
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .skills ul li img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        .contact p, .profiles p {
+            font-size: 1.1em;
+            margin: 5px 0;
+        }
+
+        .contact a, .profiles a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+
+        .contact a:hover, .profiles a:hover {
+            text-decoration: underline;
+        }
+
+        .profiles ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .profiles ul li {
+            margin: 5px 0;
+        }
+
+        .profiles ul li a {
+            color: #6a11cb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .profiles ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Vignesh</h1>
+            <h2>Advanced Communication Engineer 🏆</h2>
+            <p>2nd Year, RMK Engineering College</p>
+            <p>Sophomore Eager to Dive into the World of Coding</p>
+        </header>
+        <section class="section skills">
+            <h3>Skills</h3>
+            <ul>
+                <li><img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java Logo">Java</li>
+                <li><img src="https://img.icons8.com/color/48/000000/git.png" alt="Git Logo">Git</li>
+                <li><img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub Logo">GitHub</li>
+                <li><img src="https://img.icons8.com/color/48/000000/c-programming.png" alt="C Logo">C</li>
+                <li><img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="C++ Logo">C++</li>
+                <li><img src="https://img.icons8.com/color/48/000000/web.png" alt="Web Development Logo">Web Development</li>
+                <li><img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML Logo">HTML</li>
+                <li><img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS Logo">CSS</li>
+                <li><img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript Logo">JavaScript</li>
+            </ul>
+        </section>
+        <section class="section profiles">
+            <h3>Profiles</h3>
+            <ul>
+                <li><a href="https://leetcode.com/u/Vignesh_9055/" target="_blank">LeetCode</a> - Solving problems on LeetCode</li>
+                <li><a href="https://www.geeksforgeeks.org/user/vigneshzwax/" target="_blank">Geeks for Geeks</a> - Solving problems on Geeks for Geeks</li>
+            </ul>
+        </section>
+        <section class="section contact">
+            <h3>Contact</h3>
+            <p>Phone: 8148318349</p>
+            <p>Email: <a href="mailto:230268.ea@rmkec.ac.in">230268.ea@rmkec.ac.in</a></p>
+        </section>
+    </div>
+</body>
+</html>
